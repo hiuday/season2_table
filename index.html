@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tạo bảng</title>
+  </head>
+  <body>
+    <!--table:tạo bảng
+    + tr: để tạo hàng
+    + td : để tạo cột
+    + th: tạo cột cho phần đầu
+-caption:hiển thị nội dung của table
+Các thuộc tính (atribute):
+border:tạo viền;
+cellpadding:
+cellspacing:
+colspan:
+rowspan:
+width:xét chiều rộng của bảng
+height:xét chiều cao của bảng 
+  -->
+    <h1>learn html table</h1>
+    <table border="1px solid black" cellpadding="20" cellspacing="0">
+      <caption>
+        quản lý product
+      </caption>
+      <thead align="center">
+        <th>stt</th>
+        <th>name</th>
+        <th>price</th>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>1</td>
+          <td>bình</td>
+          <td>10000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>bình</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>bình</td>
+          <td>15000</td>
+        </tr>
+      </tbody>
+      <tfoot align="center">
+        <tr>
+          <td colspan="2">tổng cộng</td>
+          <td>45000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <audio src="./audio/4MuaThuongEm-LapNguyen-8365312.mp3" controls></audio>
+    <hr />
+    <video
+      src="./video/À Lôi - Double2T x Masew - Chill Mix.mp4"
+      controls
+      width="200px"
+      height="200px"
+    ></video>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Klqg7Ps5VL8?si=ZufjKNRkkf0cCl3_"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
